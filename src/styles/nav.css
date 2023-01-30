@@ -1,0 +1,85 @@
+.wrap-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.9rem;
+    position: fixed;
+    width: 100%;
+}
+
+.wraper-right {
+    display: flex;
+    align-items: center;
+    margin-right: 5rem;
+}
+
+.container-nav {
+    display: flex;
+    width: 30rem;
+    justify-content: space-between;
+}
+
+.container-nav li > * {
+    color: white;
+    text-decoration: none;
+    font-size: 0.97rem;
+    font-weight: bold;
+}
+
+.container-nav li > *:hover {
+    color: #fa0368;
+    transition: 0.25s;
+}
+
+.logo-light {
+    width: 9.8rem;
+    height: 2.2rem;
+    margin-left: 5rem;
+}
+
+.logo-right {
+    width: 1.625rem;
+    padding: 1.25rem;
+    padding-left: 5rem;
+}
+
+.wrap-mid {
+    max-width: 69.875rem;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dig-mid {
+    color: white;
+    font-size: 8rem;
+    line-height: 4rem;
+}
+
+.mar-mid{
+    color: white;
+    font-size: 3rem;
+    line-height: 8rem;
+}
+
+.num-mid{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 0.2rem;
+}
+
+.wrap-top.fixed {
+    background-color: white;
+    transition: .3s ease-in-out;
+}
+
+.wrap-top.fixed .wraper-right div .container-nav li > *{
+    color: black;
+}
+
+.wrap-top.fixed .wraper-right div .container-nav li > *:hover {
+    color: #fa0368;
+    transition: 0.25s;
+}

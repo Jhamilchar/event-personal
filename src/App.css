@@ -1,0 +1,22 @@
+ * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ *::selection {
+    background-color: #fa0368;
+ }
+
+:root {
+ font-size: 16px;
+}
+
+.bg-top {
+    background: url('../../public/img/banner-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 100vh;
+}

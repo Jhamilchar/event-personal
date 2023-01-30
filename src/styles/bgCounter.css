@@ -1,0 +1,31 @@
+.bgCounter {
+    background: url('../../public//img/counter-bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.container-4 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.img-4{
+    width: 4.6rem;
+    height: 4.7rem;
+}
+
+.mini-con {
+    font-size: 3.125rem;
+    color: white;
+}
+
+.tx-4 {
+    font-size: 1.125rem;
+    color: white;
+}

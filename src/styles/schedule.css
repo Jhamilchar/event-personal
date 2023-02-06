@@ -1,0 +1,95 @@
+.d-wraper {
+    background: url('../../public//img//schedule-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wraper-all {
+    width: 69.8125rem;
+    margin: 0 auto;
+
+}
+
+.wraper-three {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7.9rem;
+    padding-bottom: 3.5rem;
+}
+
+.flex-midle {
+    display: flex;
+}
+
+
+.three-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(80deg, #1a0b8c 40%, #fa50cb 120%);
+    color: #fff !important;
+    border-color: #3e27d8;
+    border-bottom: 0px solid transparent;
+    width: 16.75rem;
+    height: 5.8125rem;
+    border-radius: 0.3rem;
+}
+
+.des {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.time{
+    font-size: 0.93rem;
+    font-weight: bold;
+}
+
+.back-sim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(80deg, #1a0b8c 40%, #fa50cb 120%);
+    color: #fff !important;
+    border-color: #3e27d8;
+    border-bottom: 0px solid transparent;
+}
+
+
+
+.flex-bot {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.time {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.3rem;
+}
+
+.room {
+    font-size: 1rem;
+}
+
+.flex-int {
+    font-size: 1.37rem;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 0.97rem;
+    font-weight: 200;
+}
+
+.duo-img {
+    display: flex;
+    gap: 1rem;
+}
+.duo-img img {
+    border-radius: 50%;
+}

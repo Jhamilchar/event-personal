@@ -1,11 +1,11 @@
-import img1 from "../../public/img/speakers1.png";
-import img2 from "../../public/img/speakers2.png";
-import img3 from "../../public/img/speakers3.png";
-import img4 from "../../public/img/speakers4.png";
-import img5 from "../../public/img/speakers5.png";
-import img6 from "../../public/img/speakers6.png";
-import img7 from "../../public/img/speakers7.png";
-import img8 from "../../public/img/speakers8.png";
+import img1 from "../../assets/img/speakers1.png";
+import img2 from "../../assets/img/speakers2.png";
+import img3 from "../../assets/img/speakers3.png";
+import img4 from "../../assets/img/speakers4.png";
+import img5 from "../../assets/img/speakers5.png";
+import img6 from "../../assets/img/speakers6.png";
+import img7 from "../../assets/img/speakers7.png";
+import img8 from "../../assets/img/speakers8.png";
 
 export const DataSpeakers = [
   {

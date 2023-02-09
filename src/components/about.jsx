@@ -8,7 +8,7 @@ export const About = () => {
         <div>
           <img
             className="img-p"
-            src="../../public/img/about.png"
+            src="../../assets/img/about.png"
             alt="description"
           />
         </div>
@@ -22,10 +22,10 @@ export const About = () => {
               quae ab illo inventore veritatis et quasi architecto.
             </p>
           </div>
-          <div className='sup'>
+          <div className="sup">
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src="../../public/img/1.png" alt="" />
+                <img className="duo-img" src="../../assets/img/1.png" alt="" />
                 <h5 className="par">Where</h5>
               </div>
               <p className="duo-text">
@@ -35,7 +35,7 @@ export const About = () => {
             </div>
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src="../../public/img/2.png" alt="" />
+                <img className="duo-img" src="../../assets/img/2.png" alt="" />
                 <h5 className="par">When</h5>
               </div>
               <p className="duo-text">

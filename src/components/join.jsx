@@ -1,12 +1,12 @@
 import '../styles/join.css'
 import { Cards } from './min/cards';
 
-import img1 from '../../public/img/1-6.png'
-import img2 from '../../public/img/2-6.png'
-import img3 from '../../public/img/3-6.png'
-import img4 from '../../public/img/4-6.png'
-import img5 from '../../public/img/5-6.png'
-import img6 from '../../public/img/6-6.png'
+import img1 from '../../assets/img/1-6.png'
+import img2 from '../../assets/img/2-6.png'
+import img3 from '../../assets/img/3-6.png'
+import img4 from '../../assets/img/4-6.png'
+import img5 from '../../assets/img/5-6.png'
+import img6 from '../../assets/img/6-6.png'
 
 const cards = [
   {

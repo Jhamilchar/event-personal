@@ -14,7 +14,7 @@
 }
 
 .bg-top {
-    background: url('../../public/img/banner-bg.jpg');
+    background: url('../../assets/img/banner-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top center;

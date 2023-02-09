@@ -2,9 +2,9 @@ import '../styles/schedule.css'
 import { CardBot } from './min/cardBot';
 import { CardSc } from "./min/cardsS";
 
-import img1 from "../../public/img/clock.png";
-import img2 from "../../public/img/s-1.jpg";
-import img3 from  '../../public/img/s-2.jpg'
+import img1 from "../../assets/img/clock.png";
+import img2 from "../../assets/img/s-1.jpg";
+import img3 from  '../../assets/img/s-2.jpg'
 
 
 const cards = [

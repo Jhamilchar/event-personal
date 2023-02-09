@@ -34,7 +34,7 @@ const cardsBot = [
     time: "10:00-12:00",
     room: "Room",
     int: "Introduction Business",
-    lor: "All the Lorem Ipsum generators on the Internet tend to repeat",
+    lor: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ const cardsBot = [
     time: "10:00-12:00",
     room: "Room",
     int: "Introduction Business",
-    lor: "All the Lorem Ipsum generators on the Internet tend to repeat",
+    lor: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ const cardsBot = [
     time: "10:00-12:00",
     room: "Room",
     int: "Introduction Business",
-    lor: "All the Lorem Ipsum generators on the Internet tend to repeat",
+    lor: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const cardsBot = [
     time: "10:00-12:00",
     room: "Room",
     int: "Introduction Business",
-    lor: "All the Lorem Ipsum generators on the Internet tend to repeat",
+    lor: "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.",
   },
 ];
 

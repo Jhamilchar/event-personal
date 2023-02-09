@@ -22,8 +22,8 @@
 .container-nav li > * {
     color: white;
     text-decoration: none;
-    font-size: 0.97rem;
-    font-weight: bold;
+    font-size: 0.92rem;
+    font-weight: 500;
 }
 
 .container-nav li > *:hover {

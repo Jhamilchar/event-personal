@@ -13,7 +13,8 @@
     "react-countup": "^6.4.1",
     "react-dom": "^18.2.0",
     "react-scroll": "^1.8.9",
-    "react-scroll-trigger": "^0.6.14"
+    "react-scroll-trigger": "^0.6.14",
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

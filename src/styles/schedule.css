@@ -4,6 +4,10 @@
     background-size: cover;
 }
 
+.wraper-sch {
+    padding: 7.5rem 0;
+}
+
 .wraper-all {
     width: 69.8125rem;
     margin: 0 auto;
@@ -14,7 +18,7 @@
     display: flex;
     justify-content: space-evenly;
     padding-top: 7.9rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 3rem;
 }
 
 .flex-midle {
@@ -55,15 +59,25 @@
     color: #fff !important;
     border-color: #3e27d8;
     border-bottom: 0px solid transparent;
+    min-width: 12.68rem;
+    height: 14.21rem;
+    margin-left: .8rem;
+    margin-right: 3rem;
+}
+
+.flex-space {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 42.875rem;
 }
 
 
 
 .flex-bot {
     display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: flex-start;
+    gap: 1.5rem;
+    align-items: center;
 }
 
 .time {
@@ -92,4 +106,6 @@
 }
 .duo-img img {
     border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
 }

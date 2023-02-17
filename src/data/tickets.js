@@ -1,0 +1,32 @@
+export const DataTickets = [
+  {
+    id: 1,
+    title: "SILVER PASS",
+    price: "$ 325",
+    benefits1: "Welcome Reception",
+    benefits2: "Free Snacks",
+    benefits3: "Regular Seating",
+    benefits4: "Custom Badge",
+    buy: "BUY NOW",
+  },
+  {
+    id: 2,
+    title: "SILVER PASS",
+    price: "$ 325",
+    benefits1: "Welcome Reception",
+    benefits2: "Free Snacks",
+    benefits3: "Regular Seating",
+    benefits4: "Custom Badge",
+    buy: "BUY NOW",
+  },
+  {
+    id: 3,
+    title: "SILVER PASS",
+    price: "$ 325",
+    benefits1: "Welcome Reception",
+    benefits2: "Free Snacks",
+    benefits3: "Regular Seating",
+    benefits4: "Custom Badge",
+    buy: "BUY NOW",
+  },
+];

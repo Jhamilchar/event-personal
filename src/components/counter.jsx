@@ -15,7 +15,7 @@ export const Counter = () => {
               duration={2}
               delay={0}
             />
-            <span>+</span>
+            <span className='up'>+</span>
           </h1>
           <span className="tx-4">speakers</span>
         </div>
@@ -32,7 +32,7 @@ export const Counter = () => {
               duration={2}
               delay={0}
             />
-            <span>+</span>
+            <span className='up'>+</span>
           </h1>
           <span className="tx-4">metas</span>
         </div>
@@ -49,7 +49,7 @@ export const Counter = () => {
               duration={2}
               delay={0}
             />
-            <span>+</span>
+            <span className='up'>+</span>
           </h1>
           <span className="tx-4">tickets</span>
         </div>
@@ -66,7 +66,7 @@ export const Counter = () => {
               duration={2}
               delay={0}
             />
-            <span>+</span>
+            <span className='up'>+</span>
           </h1>
           <span className="tx-4">strong</span>
         </div>

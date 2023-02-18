@@ -38,7 +38,7 @@ const info = [
 
 export const Location = () => {
   return (
-    <ContentLocation>
+    <ContentLocation id="contact">
       <MiddleTop>
         <span>VENUE</span>
         <h2 style={{ color: "black" }}>Event Location</h2>

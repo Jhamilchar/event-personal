@@ -7,6 +7,7 @@ import { Speakers } from "./components/speakers.jsx";
 import { Tickets } from "./components/tickets.jsx";
 import { Sponsor } from "./components/sponsor.jsx";
 import { Location } from "./components/location.jsx";
+import { Footer } from "./components/footer.jsx";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Tickets />
       <Sponsor />
       <Location />
+      <Footer/>
     </>
   );
 }

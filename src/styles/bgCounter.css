@@ -21,11 +21,20 @@
 }
 
 .mini-con {
-    font-size: 3.125rem;
     color: white;
 }
 
 .tx-4 {
     font-size: 1.125rem;
     color: white;
+}
+
+.count {
+    color: rgb(255, 255, 255);
+    font-size: 3.125rem;
+
+}
+
+.up {
+    font-size: 3.125rem;
 }

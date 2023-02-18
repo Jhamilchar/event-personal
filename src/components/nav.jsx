@@ -78,7 +78,7 @@ export const Nav = () => {
                     Schedules
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="blog"
                     spy={true}
@@ -88,7 +88,7 @@ export const Nav = () => {
                   >
                     Blog
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     to="contact"

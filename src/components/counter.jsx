@@ -1,6 +1,6 @@
 import CountUp from 'react-countup';
 import '../styles/bgCounter.css'
-import bocina from "../../assets/img/bocina.png"
+import bocina from "/assets/img/bocina.png"
 
 export const Counter = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react'
 import '../styles/about.css'
 import about from "/assets/img/about.png"
-import img1 from "/assets/img/1.png"
-import img2 from "/assets/img/2.png";
+import img1 from "../../assets/img/1.png"
+import img2 from "../../assets/img/2.png";
 
 export const About = () => {
   return (

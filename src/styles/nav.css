@@ -1,11 +1,18 @@
 .wrap-top {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     height: 5.9rem;
     position: fixed;
     width: 100%;
 }
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 80rem;
+}
+
 
 .wraper-right {
     display: flex;
@@ -22,7 +29,7 @@
 .container-nav li > * {
     color: white;
     text-decoration: none;
-    font-size: 0.92rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -83,3 +90,4 @@
     color: #fa0368;
     transition: 0.25s;
 }
+

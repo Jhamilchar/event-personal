@@ -25,90 +25,88 @@ export const Nav = () => {
     <>
       <div className="bg-top" id="head">
         <div className={fix ? "wrap-top fixed" : "wrap-top"}>
-          <div>
-            <img
-              className="logo-light"
-              src={fix ? darkImg : lightImg}
-              alt="desciption"
-            />
-          </div>
-          <div className="wraper-right">
-            <div>
-              <ul className="container-nav">
-                <li>
-                  <Link
-                    to="head"
-                    spy={true}
-                    smooth={true}
-                    offset={0}
-                    duration={500}
-                  >
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="about"
-                    spy={true}
-                    smooth={true}
-                    offset={-120}
-                    duration={500}
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="speakers"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    Speakers
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="schedules"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    Schedules
-                  </Link>
-                </li>
-                {/* <li>
-                  <Link
-                    to="blog"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    Blog
-                  </Link>
-                </li> */}
-                <li>
-                  <Link
-                    to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={50}
-                    duration={500}
-                  >
-                    Contact
-                  </Link>
-                </li>
-              </ul>
-            </div>
+          <div className='content'>
             <div>
               <img
-                src={points}
-                alt="description"
-                className="logo-right"
+                className="logo-light"
+                src={fix ? darkImg : lightImg}
+                alt="desciption"
               />
+            </div>
+            <div className="wraper-right">
+              <div>
+                <ul className="container-nav">
+                  <li>
+                    <Link
+                      to="head"
+                      spy={true}
+                      smooth={true}
+                      offset={0}
+                      duration={500}
+                    >
+                      Home
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="about"
+                      spy={true}
+                      smooth={true}
+                      offset={-120}
+                      duration={500}
+                    >
+                      About
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="speakers"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Speakers
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      to="schedules"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Schedules
+                    </Link>
+                  </li>
+                  {/* <li>
+                    <Link
+                      to="blog"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Blog
+                    </Link>
+                  </li> */}
+                  <li>
+                    <Link
+                      to="contact"
+                      spy={true}
+                      smooth={true}
+                      offset={50}
+                      duration={500}
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <img src={points} alt="description" className="logo-right" />
+              </div>
             </div>
           </div>
         </div>

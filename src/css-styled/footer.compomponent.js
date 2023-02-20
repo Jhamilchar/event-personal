@@ -4,7 +4,7 @@ import footerBg from "../../assets/img/footer-bg.jpg";
 export const BacgroundFooter = styled.div `
   background: url(${footerBg});
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: bottom;
   background-size: cover;
   height: 29.625rem;
   width: 100%;

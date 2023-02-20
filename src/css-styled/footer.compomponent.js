@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import footerBg from "/assets/img/footer-bg.jpg";
 
 export const BacgroundFooter = styled.div `
-  background: url("../../assets/img/footer-bg.jpg");
+  background: url(${footerBg});
   background-repeat: no-repeat;
   background-size: cover;
   height: 29.625rem;

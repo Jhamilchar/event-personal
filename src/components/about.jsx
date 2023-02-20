@@ -28,7 +28,7 @@ export const About = () => {
           <div className="sup">
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src={img1} alt="" />
+                <img className="duo-img" src={img1} alt="des" />
                 <h5 className="par">Where</h5>
               </div>
               <p className="duo-text">
@@ -38,7 +38,7 @@ export const About = () => {
             </div>
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src={img2} alt="" />
+                <img className="duo-img" src={img2} alt="des" />
                 <h5 className="par">When</h5>
               </div>
               <p className="duo-text">

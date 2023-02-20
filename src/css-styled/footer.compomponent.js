@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import footerBg from "/assets/img/footer-bg.jpg";
+import footerBg from "../assets/img/footer-bg.jpg";
 
 export const BacgroundFooter = styled.div `
   background: url(${footerBg});

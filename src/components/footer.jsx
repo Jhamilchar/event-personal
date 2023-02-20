@@ -6,6 +6,7 @@ import {
   FlexCards,
   Cards,
 } from "../css-styled/footer.compomponent.js";
+import light from "/assets/img/logo-light2.png";
 
 export const Footer = () => {
   return (
@@ -15,7 +16,7 @@ export const Footer = () => {
           <div>
             <img
               style={{ width: "179px" }}
-              src="../../assets/img/logo-light2.png"
+              src={light}
               alt=""
             />
           </div>

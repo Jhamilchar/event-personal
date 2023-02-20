@@ -9,6 +9,7 @@ import {
 } from "../css-styled/location.components";
 import { AsideContact } from "./min/cardAside";
 import { DirectionHotels } from "./min/cardHotels";
+import contact from "/assets/img/contact.png";
 
 import img1 from "../../assets/img/gps.png";
 import img2 from "../../assets/img/chat.png";
@@ -46,7 +47,7 @@ export const Location = () => {
       <LocationWraperTop>
         <LocationInfo>
             <Img
-              src="../../assets/img/contact.png"
+              src={contact}
               alt=""
             />
           <WrapperAside>

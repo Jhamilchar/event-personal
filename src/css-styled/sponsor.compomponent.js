@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import sponsorBg2 from "/assets/img/sponsor-bg2.jpg"
 
 export const Background = styled.div`
-  background: url("../../assets/img/sponsor-bg2.jpg");
+  background: url(${sponsorBg2});
   background-size: cover;
   background-position: top left;
   height: 54rem;

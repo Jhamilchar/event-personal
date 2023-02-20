@@ -6,7 +6,7 @@ import {
   FlexCards,
   Cards,
 } from "../css-styled/footer.compomponent.js";
-import light from "/assets/img/logo-light2.png";
+import light from "../../assets/img/logo-light2.png";
 
 export const Footer = () => {
   return (

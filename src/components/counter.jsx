@@ -1,11 +1,12 @@
 import CountUp from 'react-countup';
 import '../styles/bgCounter.css'
+import bocina from "../../assets/img/bocina.png"
 
 export const Counter = () => {
   return (
     <div className="bgCounter">
       <div className="container-4">
-        <img className="img-4" src="../../assets/img/bocina.png" alt="des" />
+        <img className="img-4" src={bocina} alt="des" />
         <div>
           <h1 className="mini-con">
             <CountUp
@@ -22,7 +23,7 @@ export const Counter = () => {
       </div>
 
       <div className="container-4">
-        <img className="img-4" src="/assets/img/hombre.png" alt="des" />
+        <img className="img-4" src="../../assets/img/hombre.png" alt="des" />
         <div>
           <h1 className="mini-con">
             <CountUp
@@ -39,7 +40,7 @@ export const Counter = () => {
       </div>
 
       <div className="container-4">
-        <img className="img-4" src="/assets/img/ticket.png" alt="des" />
+        <img className="img-4" src="../../assets/img/ticket.png" alt="des" />
         <div>
           <h1 className="mini-con">
             <CountUp
@@ -56,7 +57,7 @@ export const Counter = () => {
       </div>
 
       <div className="container-4">
-        <img className="img-4" src="/assets/img/manos.png" alt="des" />
+        <img className="img-4" src="../../assets/img/manos.png" alt="des" />
         <div>
           <h1 className="mini-con">
             <CountUp

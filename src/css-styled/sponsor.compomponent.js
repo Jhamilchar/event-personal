@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import sponsorBg2 from "/assets/img/sponsor-bg2.jpg"
+import sponsorBg2 from "../../assets/img/sponsor-bg2.jpg"
 
 export const Background = styled.div`
   background: url(${sponsorBg2});

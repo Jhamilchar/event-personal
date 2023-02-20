@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../styles/nav.css'
 import { Link } from 'react-scroll';
+import darkImg from "../../assets/img/logo-dark.png";
+import lightImg from "../../assets/img/logo-light.png";
+
 export const Nav = () => {
   const closeMenu = () => setClick(false);
 
@@ -24,11 +27,7 @@ export const Nav = () => {
           <div>
             <img
               className="logo-light"
-              src={
-                fix
-                  ? "/assets/img/logo-dark.png"
-                  : "/assets/img/logo-light.png"
-              }
+              src={fix ? darkImg : lightImg}
               alt="desciption"
             />
           </div>

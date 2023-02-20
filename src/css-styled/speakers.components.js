@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Background = styled.div`
-  background: url("../../assets/img/team-bg2.jpg");
+  background: url("/assets/img/team-bg2.jpg");
   background-size: cover;
   background-position: top;
   height: 74.120rem;

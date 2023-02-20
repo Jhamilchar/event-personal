@@ -13,6 +13,7 @@ export const Nav = () => {
     }
   }
 
+
   window.addEventListener('scroll', setFixed)
 
 

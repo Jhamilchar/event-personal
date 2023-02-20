@@ -1,9 +1,9 @@
 import CountUp from 'react-countup';
 import '../styles/bgCounter.css'
 import bocina from "/assets/img/bocina.png"
-import hombre from "/assets/img/hombre.png";
-import ticket from "/assets/img/ticket.png"
-import manos from "/assets/img/manos.png";
+import hombre from "../../assets/img/hombre.png";
+import ticket from "../../assets/img/ticket.png";
+import manos from "../../assets/img/manos.png";
 
 export const Counter = () => {
   return (

@@ -25,8 +25,8 @@ export const Nav = () => {
               className="logo-light"
               src={
                 fix
-                  ? "../../assets/img/logo-dark.png"
-                  : "../../assets/img/logo-light.png"
+                  ? "/assets/img/logo-dark.png"
+                  : "/assets/img/logo-light.png"
               }
               alt="desciption"
             />
@@ -104,7 +104,7 @@ export const Nav = () => {
             </div>
             <div>
               <img
-                src="../../assets/img/nine-points.png"
+                src="/assets/img/nine-points.png"
                 alt="description"
                 className="logo-right"
               />

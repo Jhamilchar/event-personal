@@ -1,10 +1,12 @@
 import styled from "styled-components";
+import teamBg2 from "../../assets/img/team-bg2.jpg";
+
 
 export const Background = styled.div`
-  background: url('/assets/img/team-bg2.jpg');
+  background: url(${teamBg2});
   background-size: cover;
   background-position: top;
-  height: 74.120rem;
+  height: 74.12rem;
 `;
 
 export const Container = styled.div`

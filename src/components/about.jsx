@@ -1,6 +1,8 @@
 import React from 'react'
 import '../styles/about.css'
-import about from "../../assets/img/about.png"
+import about from "/assets/img/about.png"
+import img1 from "/assets/img/1.png"
+import img2 from "/assets/img/2.png";
 
 export const About = () => {
   return (
@@ -26,7 +28,7 @@ export const About = () => {
           <div className="sup">
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src="/assets/img/1.png" alt="" />
+                <img className="duo-img" src={img1} alt="" />
                 <h5 className="par">Where</h5>
               </div>
               <p className="duo-text">
@@ -36,7 +38,7 @@ export const About = () => {
             </div>
             <div className="sup-2">
               <div className="flex-duo">
-                <img className="duo-img" src="/assets/img/2.png" alt="" />
+                <img className="duo-img" src={img2} alt="" />
                 <h5 className="par">When</h5>
               </div>
               <p className="duo-text">

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import teamBg2 from "../../assets/img/team-bg2.jpg";
+import teamBg2 from "/assets/img/team-bg2.jpg";
 
 
 export const Background = styled.div`

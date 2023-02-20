@@ -3,6 +3,7 @@ import '../styles/nav.css'
 import { Link } from 'react-scroll';
 import darkImg from "/assets/img/logo-dark.png";
 import lightImg from "/assets/img/logo-light.png";
+import points from "/assets/img/nine-points.png";
 
 export const Nav = () => {
   const closeMenu = () => setClick(false);
@@ -104,7 +105,7 @@ export const Nav = () => {
             </div>
             <div>
               <img
-                src="/assets/img/nine-points.png"
+                src={points}
                 alt="description"
                 className="logo-right"
               />

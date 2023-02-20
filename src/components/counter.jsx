@@ -5,7 +5,7 @@ export const Counter = () => {
   return (
     <div className="bgCounter">
       <div className="container-4">
-        <img className='img-4" src="../../assets/img/bocina.png" alt="des' />
+        <img className="img-4" src="../../assets/img/bocina.png" alt="des" />
         <div>
           <h1 className="mini-con">
             <CountUp

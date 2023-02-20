@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import '../styles/nav.css'
 import { Link } from 'react-scroll';
-import darkImg from "../../assets/img/logo-dark.png";
-import lightImg from "../../assets/img/logo-light.png";
+import darkImg from "/assets/img/logo-dark.png";
+import lightImg from "/assets/img/logo-light.png";
 
 export const Nav = () => {
   const closeMenu = () => setClick(false);

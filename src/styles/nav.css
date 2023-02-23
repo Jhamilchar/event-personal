@@ -79,6 +79,7 @@
 
 .wrap-top.fixed {
     background-color: white;
+    z-index: 1;
     transition: .3s ease-in-out;
 }
 
@@ -142,3 +143,20 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    .logo-light {
+        width: 22.6rem;
+        height: 5rem;
+        margin-left: 0;
+    }
+    .content {
+        height: 11.8rem;
+    }
+    .wrap-mid {
+        max-width: 84rem;
+        gap: 1.3rem;
+    }
+    .num-mid {
+        font-size: 2.4rem;
+    }
+}

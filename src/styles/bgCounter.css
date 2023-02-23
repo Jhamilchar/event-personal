@@ -88,3 +88,29 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .bgCounter {
+        height: 82.8rem;
+        background-position: left;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 16rem 0;
+        padding-left: 6rem;
+    }
+    .img-4{
+        width: 12rem;
+        height: 12rem;
+        padding-right: 3rem;
+    }
+    .count {
+        font-size: 7rem;
+    }
+    .up {
+        font-size: 7rem;
+    }
+    .tx-4 {
+        font-size: 3rem;
+    }
+}

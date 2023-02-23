@@ -124,6 +124,7 @@
         width: 67.1rem;
         height: 64.4rem;
     }
+
     .t-about {
         font-size: 1.6rem;
     }
@@ -159,6 +160,65 @@
     .duo-text {
         font-size: 1.7rem;
         line-height: 2.6rem;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .wrap-about {
+        width: 84.6rem;
+        height: 200rem;
+        padding: 16rem 0;
+        gap: 13rem;
+    }
+
+    .wrap-about div .img-p {
+        width: 84.6rem;
+        height: 81.4rem;
+    }
+
+    .about-w-top {
+        gap: 5.7rem;
+    }
+
+    .t-about {
+        font-size: 3rem;
+    }
+
+    .t-wel {
+        font-size: 5.2rem;
+        line-height: 5.6rem;
+    }
+
+    .t-large {
+        font-size: 3rem;
+        line-height: 5.4rem;
+    }
+    .flex-duo {
+        gap: 3rem;
+    }
+    .sup {
+        margin-top: 6rem;
+        gap: 8rem;
+    }
+    .sup-2 {
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .duo-img {
+        width: 6.6rem;
+        height: 6.6rem;
+    }
+
+    .par {
+        font-size: 4rem;
+        line-height: 1rem;
+        font-weight: 600;
+    }
+
+    .duo-text {
+        font-size: 3rem;
+        line-height: 5.5rem;
         font-weight: 200;
     }
 }

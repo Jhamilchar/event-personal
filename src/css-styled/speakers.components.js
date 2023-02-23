@@ -6,15 +6,18 @@ export const Background = styled.div`
   background: url(${teamBg2});
   background-size: cover;
   background-position: top;
-  height: 225rem;
+  height: 63.5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 3.125rem;
+  @media screen and (min-width: ) {
+    height: 225rem;
+  }
 `;
 
 export const Container = styled.div`
   width: 71.25rem;
-  height: 63.5rem;
   margin: 0 auto;
-  padding-top: 7.5rem;
-  padding-bottom: 3.125rem;
+
   @media screen and (max-width: 768px) {
     width: auto;
   }

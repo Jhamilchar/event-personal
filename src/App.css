@@ -17,6 +17,26 @@
     background: url('/assets/img/banner-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top center;
-    height: 100vh;
+    background-position: center center;
+    height: 55rem;
+}
+
+@media screen and (max-width: 1024px) {
+   :root {
+      font-size: 12px;
+   }
+
+   .bg-top {
+      height: 76rem;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   :root {
+      font-size: 9px;
+   }
+
+   .bg-top {
+      height: 106.6rem;
+   }
 }

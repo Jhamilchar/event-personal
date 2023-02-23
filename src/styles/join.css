@@ -93,3 +93,79 @@
     font-weight: 200;
     line-height: 2rem;
 }
+@media screen and (max-width: 1024px) {
+    .cards-6 {
+        width: 24.16rem;
+        height: 25.12rem;
+        gap: 2rem;
+    }
+    .f-card img {
+        width: 5.6rem;
+        height: 5.6rem;
+    }
+    .f-card_2 {
+        gap: 1rem;
+        align-items: flex-start;
+        padding: 0 3rem;
+    }
+
+    .num {
+        font-size: 4.6rem;
+        color: #E72C2C1A;
+    }
+
+    .des-card {
+        font-size: 1.45rem;
+        line-height: 2.125rem;
+    }
+    .des-text {
+        font-size: 1rem;
+        line-height: 2.3rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .wrap-card {
+        grid-template-columns: 1fr 1fr;
+    }
+    .cards-6 {
+        width: 38rem;
+        height: 32.4rem;
+        gap: 2rem;
+    }
+    .f-card img {
+        width: 7.7rem;
+        height: 7.7rem;
+    }
+    .f-card_2 {
+        gap: 1rem;
+        align-items: flex-start;
+        padding: 0 3rem;
+    }
+
+    .num {
+        font-size: 6.6rem;
+    }
+
+    .des-card {
+        font-size: 2.2rem;
+        line-height: 2.125rem;
+    }
+    .des-text {
+        font-size: 1.6rem;
+        line-height: 2.3rem;
+    }
+    .min-cont {
+        gap: 2rem;
+    }
+    .join-t {
+        font-size: 1.6rem;
+        line-height: 1.75rem;
+    }
+
+    .join-w {
+        padding-top: 0.6rem;
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 2.875rem;
+    }
+}

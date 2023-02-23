@@ -6,7 +6,7 @@ export const Background = styled.div`
   background: url(${teamBg2});
   background-size: cover;
   background-position: top;
-  height: 74.12rem;
+  height: 225rem;
 `;
 
 export const Container = styled.div`
@@ -15,12 +15,19 @@ export const Container = styled.div`
   margin: 0 auto;
   padding-top: 7.5rem;
   padding-bottom: 3.125rem;
+  @media screen and (max-width: 768px) {
+    width: auto;
+  }
 `;
 
 export const Cards = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1.375rem;
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2rem;
+  }
 `;
 
 export const ContainerCard = styled.div`
@@ -28,7 +35,9 @@ export const ContainerCard = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 1.43rem;
-
+  @media screen and (max-width: 768px) {
+    gap: 2rem;
+  }
 `;
 
 export const ContainerImg = styled.div`
@@ -36,6 +45,10 @@ export const ContainerImg = styled.div`
   height: 16.375rem;
   transition: 0.3s;
   overflow: hidden;
+  @media screen and (max-width: 768px) {
+    width: 37.5rem;
+    height: 37.5rem;
+  }
 `;
 
 
@@ -57,12 +70,18 @@ export const Atext = styled.a`
   font-size: 1.25rem;
   color: white;
   font-weight: 500;
+  @media screen and (max-width: 768px) {
+    font-size: 2.3rem;
+  }
 `;
 0, 9375;
 export const Ptext = styled.p`
   font-size: 0.9375;rem;
   color: white;
   font-weight: 200;
+  @media screen and (max-width: 768px) {
+    font-size: 1.6rem;
+}
 `;
 
 // export const

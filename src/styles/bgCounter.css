@@ -3,11 +3,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 25rem;
+    height: 32.32rem;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 6rem;
 }
 
 .container-4 {
@@ -32,9 +32,59 @@
 .count {
     color: rgb(255, 255, 255);
     font-size: 3.125rem;
-
 }
 
 .up {
     font-size: 3.125rem;
+}
+
+.flex-query {
+    display: flex;
+    gap: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .img-4{
+        width: 6rem;
+        height: 6rem;
+    }
+    .count {
+        font-weight: bold;
+        font-size: 4rem;
+    }
+    .tx-4 {
+        font-size: 2rem;
+    }
+    .container-4 {
+        gap: 1.2rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .bgCounter {
+        height: 39.7rem;
+        gap: 0;
+        justify-content: space-around;
+    }
+    .flex-query {
+        flex-direction: column;
+        gap: 6rem;
+    }
+    .img-4{
+        width: 8.3rem;
+        height: 8.3rem;
+    }
+    .count {
+        font-weight: bold;
+        font-size: 5.56rem;
+        padding: 0;
+    }
+    .up {
+        font-size: 5.56rem;
+        padding: 0;
+    }
+    .tx-4 {
+        font-size: 2rem;
+    }
 }

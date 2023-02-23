@@ -13,8 +13,8 @@ export const Tickets = () => {
     <Background>
       <Container>
         <div className="top-repeat">
-          <span>SPEAKERS</span>
-          <H2>Event Speakers</H2>
+          <span>TICKETS</span>
+          <H2>Purchase Your Ticket</H2>
         </div>
         <Cards>
           {DataTickets.map((card) => (

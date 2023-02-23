@@ -91,3 +91,54 @@
     transition: 0.25s;
 }
 
+@media screen and (max-width: 1024px) {
+    .logo-light {
+        width: 13rem;
+        height: 2.9rem;
+    }
+    .wrap-top {
+        height: 7.9rem;
+    }
+    .content {
+        min-width: 85rem;
+    }
+    .dig-mid {
+        font-size: 11rem;
+        line-height: 7rem;
+    }
+
+    .mar-mid{
+        font-size: 4.2rem;
+        line-height: 9.4rem;
+    }
+
+    .num-mid{
+        font-size: 1.4rem;
+        line-height: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrap-top {
+        position: relative;
+        height: 6.5rem;
+    }
+    .content {
+        min-width: 85rem;
+    }
+    .dig-mid {
+        font-size: 13.3rem;
+        line-height: 10rem;
+    }
+
+    .mar-mid{
+        font-size: 5.7rem;
+        line-height: 14rem;
+    }
+
+    .num-mid{
+        font-size: 2rem;
+        line-height: 0.2rem;
+    }
+}
+

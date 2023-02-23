@@ -1,5 +1,5 @@
 .d-wraper {
-    background: url('../../public//img//schedule-bg.jpg');
+    background: url('../../public/img/schedule-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -11,7 +11,6 @@
 .wraper-all {
     width: 69.8125rem;
     margin: 0 auto;
-
 }
 
 .wraper-three {
@@ -43,11 +42,6 @@
 .des {
     font-size: 1.5rem;
     font-weight: 600;
-}
-
-.time{
-    font-size: 0.93rem;
-    font-weight: bold;
 }
 
 .back-sim {
@@ -84,6 +78,7 @@
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 1.3rem;
+    color: white;
 }
 
 .room {
@@ -109,4 +104,90 @@
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .three-top {
+        width: 18rem;
+        height: 7.44rem;
+    }
+
+    .des{
+        font-size: 1.9rem;
+    }
+
+    .time{
+        font-size: 1.4rem;
+    }
+    .wraper-all {
+        width: 75rem;
+    }
+    .back-sim {
+        height: 18.16rem;
+    }
+    .flex-int {
+        font-size: 1.9rem;
+        font-weight: 600;
+    }
+
+    .text {
+        font-size: 1.3rem;
+        font-weight: 200;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wraper-three {
+        flex-direction: column;
+        gap: 3.5rem;
+    }
+    .three-top {
+        width: 100%;
+        height: 10.3rem;
+    }
+    .des{
+        font-size: 2.8rem;
+    }
+
+    .time{
+        font-size: 1.8rem;
+    }
+    .room {
+        font-size: 1.7rem;
+    }
+    .flex-midle {
+        flex-direction: column;
+        gap: 3.2rem;
+    }
+    .back-sim {
+        margin: 0;
+    }
+    .wraper-four {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .flex-space {
+        width: inherit;
+    }
+    .flex-bot {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 3.2rem;
+    }
+    .flex-int {
+        font-size: 2.5rem;
+    }
+
+    .text {
+        font-size: 1.7rem;
+        line-height: 3.7rem;
+    }
+    .duo-img {
+        height: auto;
+    }
+    .duo-img img{
+        width: 7.78rem;
+        height: 7.78rem;
+    }
 }

@@ -41,6 +41,16 @@
    }
 }
 
+@media screen and (max-width: 450px) {
+   :root {
+      font-size: 5px;
+   }
+
+   .bg-top {
+      height: 106.6rem;
+   }
+}
+
 @media screen and (max-width: 425px) {
    :root {
       font-size: 5px;

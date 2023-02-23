@@ -8,8 +8,11 @@ export const BacgroundFooter = styled.div`
   background-size: cover;
   height: 29.625rem;
   width: 100%;
-  @media screen and (min-width: 768px) {
+  @media screen and (max-width: 768px) {
     height: 570px;
+  }
+  @media screen and (max-width: 450px) {
+    height: 520px;
   }
 `;
 
@@ -43,6 +46,10 @@ export const BottomFooter = styled.div`
     @media screen and (max-width: 768px) {
       font-size: 1.7rem;
     }
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
+      text-align: center;
+    }
   }
 `;
 
@@ -58,6 +65,9 @@ export const FlexCards = styled.div`
     flex-direction: column;
     gap: 2.5rem;
   }
+  @media screen and (max-width: 450px) {
+    gap: 6rem;
+  }
 `;
 
 export const Cards = styled.div`
@@ -70,12 +80,18 @@ export const Cards = styled.div`
     @media screen and (max-width: 768px) {
       font-size: 2.22rem;
     }
+    @media screen and (max-width: 450px) {
+      font-size: 20px;
+    }
   }
   p {
     font-size: 0.95rem;
     color: #ffffff;
     @media screen and (max-width: 768px) {
       font-size: 1.67rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
     }
   }
   a {
@@ -84,6 +100,9 @@ export const Cards = styled.div`
     transition: 0.4s;
     @media screen and (max-width: 768px) {
       font-size: 1.67rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
     }
     &:hover {
       color: #fa0368;

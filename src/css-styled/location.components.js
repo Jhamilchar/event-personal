@@ -10,6 +10,9 @@ export const ContentLocation = styled.div`
   @media screen and (max-width: 768px) {
     height: 277rem;
   }
+  @media screen and (max-width: 450px) {
+    height: 610rem;
+  }
 `;
 
 export const LocationWraperTop = styled.div`
@@ -26,8 +29,8 @@ export const LocationWraperBottom = styled.div`
   width: 75rem;
   padding-top: 6.25rem;
   align-items: center;
-  @media screen and (min-width: ) {
-
+  @media screen and (max-width: 450px) {
+    padding-top: 17rem;
   }
 `;
 
@@ -44,6 +47,10 @@ export const Img = styled.img`
   @media screen and (max-width: 768px) {
     width: 77.11rem;
     height: 75.5rem;
+  }
+  @media screen and (max-width: 450px) {
+    width: 94rem;
+    height: 92.22rem;
   }
 `;
 
@@ -78,6 +85,11 @@ export const CardGradient = styled.div`
     width: 75rem;
     height: 17.11rem;
   }
+  @media screen and (max-width: 450px) {
+    width: 86rem;
+    height: 34.22rem;
+    padding: 3rem;
+  }
 `;
 
 export const ImgContact = styled.img`
@@ -86,6 +98,10 @@ export const ImgContact = styled.img`
   @media screen and (max-width: 768px) {
     width: 5.56rem;
     height: 5.56rem;
+  }
+  @media screen and (max-width: 450px) {
+    width: 50px;
+    height: 50px;
   }
 `;
 
@@ -99,11 +115,17 @@ export const TextContent = styled.div`
     @media screen and (max-width: 768px) {
       font-size: 2.2rem;
     }
+    @media screen and (max-width: 450px) {
+      font-size: 20px;
+    }
   }
   p {
     font-size: 1rem;
     @media screen and (max-width: 768px) {
       font-size: 1.7rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
     }
   }
 `;
@@ -118,6 +140,11 @@ export const WraperHotel = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 3rem;
   }
+  @media screen and (max-width: 450px) {
+    grid-template-columns: 1fr;
+    gap: 6rem;
+    justify-content: center;
+  }
 `;
 337/477
 
@@ -131,6 +158,10 @@ export const ContainerCardHotel = styled.div`
   @media screen and (max-width: 768px) {
     width: 37.4rem;
     height: 53rem;
+  }
+  @media screen and (max-width: 450px) {
+    width: 92rem;
+    height: 110rem;
   }
 `;
 
@@ -149,12 +180,19 @@ export const BottomHotel = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 3rem;
+  @media screen and (max-width: 450px) {
+    padding: 20px 20px 30px 20px;
+  }
   h5 {
     color: #0a0a0a;
     font-size: 1.375rem;
     font-weight: bold;
     @media screen and (max-width: 768px) {
       font-size: 2.4rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 20px;
     }
   }
   div {
@@ -169,6 +207,10 @@ export const BottomHotel = styled.div`
       @media screen and (max-width: 768px) {
         width: 3.33rem;
       }
+      @media screen and (max-width: 450px) {
+        width: 30px;
+        height: 27px;
+      }
     }
   }
   div p {
@@ -176,6 +218,10 @@ export const BottomHotel = styled.div`
     color: #454545;
     @media screen and (max-width: 768px) {
       font-size: 1.67rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 15px;
+      line-height: 6rem;
     }
   }
 `;
@@ -188,5 +234,9 @@ export const GetDirection = styled.a`
   background: #fa0368;
   @media screen and (max-width: 768px) {
     font-size: 1.67rem;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 15px;
+    line-height: 6rem;
   }
 `;

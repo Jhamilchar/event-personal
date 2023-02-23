@@ -10,6 +10,9 @@ export const Background = styled.div`
   @media screen and (max-width: 768px) {
     height: 180.78rem;
   }
+  @media screen and (max-width: 450px) {
+    height: 225rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -34,7 +37,6 @@ export const MiddleTop = styled.div`
 export const ContentImg = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  /* grid-templates-rows: 1fr 1fr; */
   gap: 1.40625rem;
   @media screen and (max-width: 768px) {
     grid-template-columns: 1fr 1fr;
@@ -53,9 +55,12 @@ export const Card = styled.div`
     width: 37.33rem;
     height: 35.22rem;
   }
+  @media screen and (max-width: 450px) {
+    width: 44.66rem;
+    height: 42rem;
+  }
 `;
-186/167
-20.67
+
 export const Img = styled.img`
   width: 7.87rem;
   height: 7.06rem;
@@ -66,6 +71,10 @@ export const Img = styled.img`
   @media screen and (max-width: 768px) {
     width: 20.67rem;
     height: 18.56rem;
+  }
+  @media screen and (max-width: 450px) {
+    width: 26.89rem;
+    height: 24.22rem;
   }
 `;
 ;

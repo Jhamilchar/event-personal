@@ -9,7 +9,7 @@ export const Background = styled.div`
     height: 132.78rem;
   }
   @media screen and (max-width: 450px) {
-    height: 345.33rem;
+    height: 385.33rem;
   }
 `;
 
@@ -32,6 +32,11 @@ export const Cards = styled.div`
     place-items: center;
     gap: 3rem;
   }
+  @media screen and (max-width: 450px) {
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 3rem;
+  }
 `;
 // 351
 // 498
@@ -51,6 +56,11 @@ export const ContainerCard = styled.div`
     height: 55.56rem;
     gap: 2.8rem;
   }
+  @media screen and (max-width: 450px) {
+    width: 77.78rem;
+    height: 111.11rem;
+    gap: 7rem;
+  }
 `;
 
 export const Numb = styled.h5`
@@ -61,6 +71,9 @@ export const Numb = styled.h5`
   @media screen and (max-width: 768px) {
     font-size: 5.56rem;
   }
+  @media screen and (max-width: 450px) {
+    font-size: 11.11rem;
+  }
 `;
 
 
@@ -70,6 +83,11 @@ export const ListTick = styled.div`
     flex-direction: column;
     gap: 0.55rem;
     margin: 1.875rem 0;
+    @media screen and (max-width: 450px) {
+      width: 160px;
+      gap: 1.7rem;
+      padding-left: -10rem;
+    }
   }
 
   & ul li {
@@ -78,6 +96,9 @@ export const ListTick = styled.div`
     font-weight: 400;
     @media screen and (max-width: 768px) {
       font-size: 1.67rem;
+    }
+    @media screen and (max-width: 450px) {
+      font-size: 2.89rem;
     }
   }
 `;
@@ -103,6 +124,9 @@ export const CompButton = styled.a`
       scroll 0% 0%;
   }
   @media screen and (max-width: 768px) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: 450px) {
     font-size: 15px;
   }
 `;

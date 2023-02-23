@@ -96,11 +96,11 @@
     font-weight: 200;
 }
 
-.duo-img {
+.duo-img_2 {
     display: flex;
     gap: 1rem;
 }
-.duo-img img {
+.duo-img_2 img {
     border-radius: 50%;
     width: 4rem;
     height: 4rem;
@@ -183,10 +183,10 @@
         font-size: 1.7rem;
         line-height: 3.7rem;
     }
-    .duo-img {
+    .duo-img_2 {
         height: auto;
     }
-    .duo-img img{
+    .duo-img_2 img{
         width: 7.78rem;
         height: 7.78rem;
     }
@@ -194,6 +194,61 @@
 
 @media screen and (max-width: 450px) {
     .wraper-all {
-        width: 92rem;
+        width: 90rem;
+    }
+    .wraper-three {
+        gap: 7rem;
+    }
+    .three-top {
+        width: 100%;
+        height: 18.6rem;
+    }
+    .des{
+        font-size: 5.2rem;
+    }
+
+    .time{
+        font-size: 4rem;
+    }
+    .room {
+        font-size: 3.2rem;
+    }
+    .flex-midle {
+        margin-top: 8rem;
+        gap: 6rem;
+    }
+    .back-sim {
+        height: 39rem;
+        margin: 0;
+    }
+    .wraper-four {
+        display: flex;
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .flex-space {
+        gap: 5.5rem;
+    }
+    .flex-bot {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7rem;
+    }
+    .flex-int {
+        font-size: 3.5rem;
+    }
+
+    .text {
+        font-size: 3.3rem;
+        line-height: 5.8rem;
+    }
+    .duo-img_2 {
+        height: auto;
+        width: auto;
+        gap: 2rem;
+    }
+    .duo-img_2 img{
+        width: 15.5rem;
+        height: 15.5rem;
     }
 }

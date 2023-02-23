@@ -4,7 +4,7 @@ export const CardBot = ({ imgClock, time, room, int, lor, img2, img3 }) => {
     <div>
       <div className="flex-midle">
         <div className="back-sim">
-          <img style={{ width: "39px" }} src={imgClock} alt="des" />
+          <img style={{ width: "40px" }} src={imgClock} alt="des" />
           <span className="time">{time}</span>
           <p className="room">{room}</p>
         </div>
@@ -13,7 +13,7 @@ export const CardBot = ({ imgClock, time, room, int, lor, img2, img3 }) => {
             <h2 className="flex-int">{int}</h2>
             <p className="text">{lor}</p>
           </div>
-          <div className="duo-img">
+          <div className="duo-img_2">
             <a href="">
               <img src={img2} alt="" />
             </a>

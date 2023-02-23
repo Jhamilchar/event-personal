@@ -8,6 +8,9 @@ export const Background = styled.div`
   @media screen and (max-width: 768px) {
     height: 132.78rem;
   }
+  @media screen and (max-width: 450px) {
+    height: 345.33rem;
+  }
 `;
 
 export const Container = styled.div`

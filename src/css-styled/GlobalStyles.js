@@ -6,6 +6,10 @@ export const GlobalStyle = createGlobalStyle`
         flex-direction: column;
         align-items: center;
         margin-bottom: 3.75rem;
+         @media screen and (max-width: 450px) {
+            padding: 9rem 0;
+            gap: 4rem;
+        }
     }
 
     span {
@@ -16,6 +20,9 @@ export const GlobalStyle = createGlobalStyle`
         @media screen and (max-width: 768px) {
             font-size: 1.9rem;
         }
+        @media screen and (max-width: 450px) {
+            font-size: 3.4rem;
+        }
     }
     h2 {
         font-size: 2.18rem;
@@ -23,6 +30,9 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 700;
         @media screen and (max-width: 768px) {
             font-size: 4rem;
+        }
+        @media screen and (max-width: 450px) {
+            font-size: 5.78rem;
         }
     }
 

@@ -41,9 +41,9 @@
    }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 450px) {
    :root {
-      font-size: 5px;
+      font-size: 4.5px;
    }
 
    .bg-top {
@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 425px) {
    :root {
-      font-size: 5px;
+      font-size: 4.5px;
    }
 
    .bg-top {

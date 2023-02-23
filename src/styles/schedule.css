@@ -191,3 +191,9 @@
         height: 7.78rem;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .wraper-all {
+        width: 92rem;
+    }
+}

@@ -89,7 +89,7 @@
     }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 450px) {
     .bgCounter {
         height: 82.8rem;
         background-position: left;

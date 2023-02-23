@@ -9,8 +9,8 @@ export const Background = styled.div`
   height: 63.5rem;
   padding-top: 7.5rem;
   padding-bottom: 3.125rem;
-  @media screen and (min-width: ) {
-    height: 225rem;
+  @media screen and (min-width: 768px) {
+    height: 215rem;
   }
 `;
 

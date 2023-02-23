@@ -7,6 +7,9 @@ export const Background = styled.div`
   background-position: top left;
   height: 54rem;
   padding: 7.5rem 0;
+  @media screen and (max-width: 768px) {
+    height: 180.78rem;
+  }
 `;
 
 export const Content = styled.div`
@@ -17,6 +20,9 @@ export const Content = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  @media screen and (max-width: 768px) {
+    gap: 9rem;
+  }
 `;
 
 export const MiddleTop = styled.div`
@@ -26,10 +32,14 @@ export const MiddleTop = styled.div`
 `;
 
 export const ContentImg = styled.div`
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  /* grid-templates-rows: 1fr 1fr; */
   gap: 1.40625rem;
-  justify-content: center;
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.6rem;
+  }
 `;
 
 export const Card = styled.div`
@@ -39,14 +49,23 @@ export const Card = styled.div`
   display: grid;
   place-items: center;
   box-sizing: border-box;
+  @media screen and (max-width: 768px) {
+    width: 37.33rem;
+    height: 35.22rem;
+  }
 `;
-
+186/167
+20.67
 export const Img = styled.img`
-  min-width: 7.87rem;
+  width: 7.87rem;
   height: 7.06rem;
-  transition: .3s;
+  transition: 0.3s;
   &:hover {
-    transform: scale(.89);
+    transform: scale(0.89);
+  }
+  @media screen and (max-width: 768px) {
+    width: 20.67rem;
+    height: 18.56rem;
   }
 `;
 ;

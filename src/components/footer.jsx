@@ -5,6 +5,7 @@ import {
   BottomFooter,
   FlexCards,
   Cards,
+  ImgLogo,
 } from "../css-styled/footer.compomponent.js";
 import light from "../../assets/img/logo-light2.png";
 
@@ -14,8 +15,7 @@ export const Footer = () => {
       <ContainFooter>
         <TopFooter>
           <div>
-            <img
-              style={{ width: "179px" }}
+            <ImgLogo
               src={light}
               alt=""
             />

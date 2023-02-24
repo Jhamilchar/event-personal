@@ -4,6 +4,7 @@ import { Link } from 'react-scroll';
 import darkImg from "/assets/img/logo-dark.png";
 import lightImg from "/assets/img/logo-light.png";
 import points from "../../assets/img/nine-points.png";
+import { AiOutlineAlignRight } from "react-icons/ai";
 
 export const Nav = () => {
   const closeMenu = () => setClick(false);
@@ -39,7 +40,11 @@ export const Nav = () => {
               />
             </div>
             <div className="wraper-right">
-              <di className={showMenu ? "background-gradient show" : "background-gradient"}>
+              <di
+                className={
+                  showMenu ? "background-gradient show" : "background-gradient"
+                }
+              >
                 <ul
                   className={showMenu ? "container-nav show" : "container-nav"}
                 >
@@ -101,11 +106,15 @@ export const Nav = () => {
                 </ul>
               </di>
               <div>
-                <img
+                {/* <img
                   src={points}
                   alt="description"
                   className="logo-right"
                   onClick={toggleMenu}
+                /> */}
+                <AiOutlineAlignRight
+                  onClick={toggleMenu}
+                  className="logo-right"
                 />
               </div>
             </div>

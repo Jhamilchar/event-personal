@@ -91,9 +91,8 @@
 
 @media screen and (max-width: 450px) {
     .bgCounter {
-        height: 82.8rem;
+        height: 40rem;
         background-position: left;
-        flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-start;
         padding: 16rem 0;

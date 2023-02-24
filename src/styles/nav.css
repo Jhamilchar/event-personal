@@ -82,13 +82,20 @@
 }
 
 .logo-right {
-    width: 1.625rem;
-    padding: 1.25rem;
-    padding-left: 5rem;
+    display: none;
+    color: white;
+    font-size: 4rem;
 }
 @media screen and (max-width: 768px) {
     .logo-right {
-        width: 3rem;
+        display: block;
+        font-size: 3.5rem;
+     }
+}
+@media screen and (max-width: 450px) {
+    .logo-right {
+        display: block;
+        font-size: 7rem;
      }
 }
 

@@ -167,7 +167,7 @@
 @media screen and (max-width: 450px) {
     .wrap-about {
         width: 84.6rem;
-        height: 200rem;
+        height: 170rem;
         padding: 16rem 0;
         gap: 13rem;
     }
@@ -200,9 +200,9 @@
     .sup {
         margin-top: 6rem;
         gap: 8rem;
+        flex-direction: row;
     }
     .sup-2 {
-        flex-direction: column;
         gap: 3rem;
     }
     .duo-img {

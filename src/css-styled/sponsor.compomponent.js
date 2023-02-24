@@ -56,8 +56,8 @@ export const Card = styled.div`
     height: 35.22rem;
   }
   @media screen and (max-width: 450px) {
-    width: 44.66rem;
-    height: 42rem;
+    width: 42rem;
+    height: 40rem;
   }
 `;
 

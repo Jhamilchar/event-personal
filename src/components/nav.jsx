@@ -17,15 +17,20 @@ export const Nav = () => {
     }
   }
 
-
   window.addEventListener('scroll', setFixed)
+
+  const [showMenu, setShowMenu] = useState(false);
+
+  const toggleMenu = () => {
+    setShowMenu(!showMenu)
+  };
 
 
   return (
     <>
       <div className="bg-top" id="head">
         <div className={fix ? "wrap-top fixed" : "wrap-top"}>
-          <div className='content'>
+          <div className="content">
             <div>
               <img
                 className="logo-light"
@@ -35,7 +40,7 @@ export const Nav = () => {
             </div>
             <div className="wraper-right">
               <div>
-                <ul className="container-nav">
+                <ul className={showMenu ? "container-nav" : "container-nav show"}>
                   <li>
                     <Link
                       to="head"
@@ -80,17 +85,6 @@ export const Nav = () => {
                       Schedules
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link
-                      to="blog"
-                      spy={true}
-                      smooth={true}
-                      offset={50}
-                      duration={500}
-                    >
-                      Blog
-                    </Link>
-                  </li> */}
                   <li>
                     <Link
                       to="contact"
@@ -105,7 +99,12 @@ export const Nav = () => {
                 </ul>
               </div>
               <div>
-                <img src={points} alt="description" className="logo-right" />
+                <img
+                  src={points}
+                  alt="description"
+                  className="logo-right"
+                  onClick={toggleMenu}
+                />
               </div>
             </div>
           </div>

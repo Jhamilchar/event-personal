@@ -34,7 +34,7 @@ export const Cards = styled.div`
   }
   @media screen and (max-width: 450px) {
     grid-template-columns: 1fr;
-    place-items: center;
+    justify-content: center;
     gap: 3rem;
   }
 `;

@@ -25,6 +25,29 @@
     width: 30rem;
     justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+    .container-nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(80deg, #1a0b8c 40%, #fa50cb 120%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: 0.3s ease;
+    }
+    .container-nav.show li a {
+        font-size: 2rem;
+    }
+    .container-nav.show {
+        transform: translateX(0) !important;
+    }
+
+}
 
 .container-nav li > * {
     color: white;
@@ -48,6 +71,15 @@
     width: 1.625rem;
     padding: 1.25rem;
     padding-left: 5rem;
+}
+@media screen and (max-width: 768px) {
+    .logo-right {
+        width: 3rem;
+     }
+}
+
+.menu-list.show {
+  display: block;
 }
 
 .wrap-mid {

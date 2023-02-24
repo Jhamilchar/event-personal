@@ -8,6 +8,8 @@ import { Tickets } from "./components/tickets.jsx";
 import { Sponsor } from "./components/sponsor.jsx";
 import { Location } from "./components/location.jsx";
 import { Footer } from "./components/footer.jsx";
+import { ButtonlToTop } from "./components/ButtonlToTop";
+
 
 function App() {
 
@@ -24,7 +26,8 @@ function App() {
       <Tickets />
       <Sponsor />
       <Location />
-      <Footer/>
+      <Footer />
+      <ButtonlToTop />
     </>
   );
 }

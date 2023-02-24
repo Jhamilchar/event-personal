@@ -83,8 +83,7 @@
 
 .logo-right {
     display: none;
-    color: white;
-    font-size: 4rem;
+    color: #fa0368;
 }
 @media screen and (max-width: 768px) {
     .logo-right {

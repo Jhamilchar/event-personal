@@ -219,6 +219,9 @@ export const BottomHotel = styled.div`
     @media screen and (max-width: 768px) {
       font-size: 1.67rem;
     }
+    @media screen and (max-width: 630px) {
+      font-size: 1rem;
+    }
     @media screen and (max-width: 450px) {
       font-size: 15px;
       line-height: 6rem;

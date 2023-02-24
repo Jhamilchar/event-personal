@@ -9,10 +9,10 @@ export const BacgroundFooter = styled.div`
   height: 29.625rem;
   width: 100%;
   @media screen and (max-width: 768px) {
-    height: 570px;
+    height: 63.33rem;
   }
   @media screen and (max-width: 450px) {
-    height: 520px;
+    height: 115.55rem;
   }
 `;
 
@@ -47,14 +47,20 @@ export const BottomFooter = styled.div`
       font-size: 1.7rem;
     }
     @media screen and (max-width: 450px) {
-      font-size: 15px;
+      font-size: 3.34rem;
       text-align: center;
     }
   }
 `;
 
 export const ImgLogo = styled.img`
-  width: 179px;
+  width: 11.1875rem;
+  @media screen and (max-width: 768px) {
+    width: 19.89rem;
+  }
+  @media screen and (max-width: 450px) {
+    width: 39.78rem;
+  }
 `;
 
 export const FlexCards = styled.div`
@@ -81,7 +87,7 @@ export const Cards = styled.div`
       font-size: 2.22rem;
     }
     @media screen and (max-width: 450px) {
-      font-size: 20px;
+      font-size: 4.44rem;
     }
   }
   p {
@@ -91,7 +97,7 @@ export const Cards = styled.div`
       font-size: 1.67rem;
     }
     @media screen and (max-width: 450px) {
-      font-size: 15px;
+      font-size: 3.33rem;
     }
   }
   a {
@@ -102,7 +108,7 @@ export const Cards = styled.div`
       font-size: 1.67rem;
     }
     @media screen and (max-width: 450px) {
-      font-size: 15px;
+      font-size: 3.33rem;
     }
     &:hover {
       color: #fa0368;

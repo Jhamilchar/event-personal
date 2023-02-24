@@ -40,7 +40,7 @@ export const Nav = () => {
               />
             </div>
             <div className="wraper-right">
-              <di
+              <div
                 className={
                   showMenu ? "background-gradient show" : "background-gradient"
                 }
@@ -104,7 +104,7 @@ export const Nav = () => {
                     </Link>
                   </li>
                 </ul>
-              </di>
+              </div>
               <div>
                 {/* <img
                   src={points}

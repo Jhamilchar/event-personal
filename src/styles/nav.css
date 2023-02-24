@@ -38,12 +38,26 @@
         width: 50%;
         height: 100vh;
         transform: translateX(-100%);
-        transition: 0.3s ease;
+        transition: .4s ease;
+    }
+    .background-gradient {
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background: #1a0b8cd0;
+        width: 100%;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: .8s ease;
     }
     .container-nav.show li a {
         font-size: 2rem;
     }
     .container-nav.show {
+        transform: translateX(0) !important;
+    }
+
+    .background-gradient.show{
         transform: translateX(0) !important;
     }
 

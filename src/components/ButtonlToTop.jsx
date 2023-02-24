@@ -8,7 +8,7 @@ const ButtonToTop = styled.button`
   height: 43px;
   width: 50px;
   border: none;
-  font-size: 1.3rem;
+  font-size: 25px;
   color: white;
   background: #fa0368;
   transition: .3s;

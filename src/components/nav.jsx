@@ -39,8 +39,10 @@ export const Nav = () => {
               />
             </div>
             <div className="wraper-right">
-              <div>
-                <ul className={showMenu ? "container-nav" : "container-nav show"}>
+              <di className={showMenu ? "background-gradient show" : "background-gradient"}>
+                <ul
+                  className={showMenu ? "container-nav show" : "container-nav"}
+                >
                   <li>
                     <Link
                       to="head"
@@ -97,7 +99,7 @@ export const Nav = () => {
                     </Link>
                   </li>
                 </ul>
-              </div>
+              </di>
               <div>
                 <img
                   src={points}

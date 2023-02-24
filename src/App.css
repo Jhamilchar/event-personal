@@ -20,6 +20,11 @@
     background-position: center center;
     height: 55rem;
 }
+@media screen and (max-width: 768px) {
+   .bg-top {
+       background-position: left;
+   }
+}
 
 @media screen and (max-width: 1024px) {
    :root {

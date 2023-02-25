@@ -127,6 +127,9 @@ export const CompButton = styled.a`
     font-size: 15px;
   }
   @media screen and (max-width: 450px) {
-    font-size: 15px;
+    font-size: 13px;
+  }
+  @media screen and (max-width: 329px) {
+    font-size: 10px;
   }
 `;

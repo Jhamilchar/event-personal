@@ -76,11 +76,11 @@
 
 @media screen and (max-width: 375px) {
    :root {
-      font-size: 4px;
+      font-size: 3.9px;
    }
 
    .bg-top {
-      height: 106.6rem;
+      height: 150rem;
    }
 }
 
@@ -90,6 +90,6 @@
    }
 
    .bg-top {
-      height: 106.6rem;
+      height: 190rem;
    }
 }

@@ -13,6 +13,9 @@ export const ContentLocation = styled.div`
   @media screen and (max-width: 450px) {
     height: 610rem;
   }
+  @media screen and (max-width: 375px) {
+    height: 640rem;
+  }
 `;
 
 export const LocationWraperTop = styled.div`
@@ -160,8 +163,12 @@ export const ContainerCardHotel = styled.div`
     height: 53rem;
   }
   @media screen and (max-width: 450px) {
-    width: 92rem;
-    height: 110rem;
+    width: 90rem;
+    height: 107rem;
+  }
+  @media screen and (max-width: 375px) {
+    width: 90rem;
+    height: 120rem;
   }
 `;
 

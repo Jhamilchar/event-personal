@@ -26,6 +26,9 @@ export const Content = styled.div`
   @media screen and (max-width: 768px) {
     gap: 9rem;
   }
+  @media screen and (max-width: 450px) {
+    gap: 14rem;
+  }
 `;
 
 export const MiddleTop = styled.div`

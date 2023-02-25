@@ -30,28 +30,29 @@
         position: absolute;
         top: 0;
         left: 0;
-        background: linear-gradient(80deg, #1a0b8c 40%, #fa50cb 120%);
+        background: linear-gradient(80deg, #05021f 40%, #000e5c 120%);
         display: flex;
         align-items: center;
         flex-direction: column;
-        justify-content: space-evenly;
+        justify-content: center;
         width: 50%;
         height: 100vh;
         transform: translateX(-100%);
         transition: .4s ease;
+        gap: 10rem;
     }
     .background-gradient {
         position: absolute;
         top: 50px;
         left: 0;
-        background: #1a0b8cd0;
+        background: #000e5c71;
         width: 100%;
         height: 100vh;
         transform: translateX(-100%);
         transition: .8s ease;
     }
     .container-nav.show li a {
-        font-size: 2rem;
+        font-size: 3.8rem;
     }
     .container-nav.show {
         transform: translateX(0) !important;
